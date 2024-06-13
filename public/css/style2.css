@@ -1,0 +1,74 @@
+/* import inter font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* root */
+:root {
+  --bg-light: #F5F5FC;
+  --bg-dark: #35353C;
+  --bg-darker: #15151C;
+  --font-body: #55555C;
+  --shadow: #C5C5CC;
+}
+
+/* tpn card style */
+.tpn_card{
+  background: var(--bg-light);
+  padding: 23px;
+  border-radius: 27px;
+  text-align: center; /* Center align content */
+}
+
+.tpn_card img{
+  border-radius: 23px;
+  box-shadow: 1px 7px 13px var(--shadow);
+  width: 500px; /* Set image width */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 10px; /* Spacing below the image */
+}
+
+.tpn_card h5{
+  color: var(--bg-dark);
+  margin-bottom: 5px; /* Spacing below the title */
+}
+
+.tpn_card p{
+  color: var(--font-body);
+  font-weight: 400;
+  margin-bottom: 10px; /* Spacing below the description */
+}
+
+.tpn_card .tpn_btn{
+  padding: 13px 27px !important;
+  line-height: normal;
+  background: var(--bg-dark);
+  border-radius: 17px;
+  text-decoration: none;
+  color: #FFF;
+  box-shadow: 1px 7px 13px var(--shadow);
+  transition: all .7s ease;
+}
+
+.tpn_card .tpn_btn:hover{
+  background: var(--bg-darker);
+  box-shadow: none;
+}
+
+/* .text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ffffff; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+
+.text-overlay h1 {
+  font-size: 2rem; 
+  margin: 0;
+}
+
+.text-overlay p {
+  font-size: 1rem; 
+  margin: 0;
+} */
